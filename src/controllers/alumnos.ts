@@ -26,7 +26,6 @@ class AlumnoController {
 
             return {
                 matricula: `A0${alumno.matricula}`, 
-                name: alumno.name,
                 mensaje
             };
         });
